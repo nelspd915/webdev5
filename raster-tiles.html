@@ -41,14 +41,14 @@
     <script>
         // add map
         const map = L.map('map', {
-          center: [45.52, -122.667],
-          zoom: 3
+          center: [46.7567, -92.1005],
+          zoom: 11
         });
         // add basemap
         L.esri.basemapLayer('Gray').addTo(map);
 
         L.esri.tiledMapLayer({
-          url: 'https://tiles.arcgis.com/tiles/8df8p0NlLFEShl0r/arcgis/rest/services/NaturalDisasters_Tornadoes/MapServer'
+          url: 'https://tiles.arcgis.com/tiles/8df8p0NlLFEShl0r/arcgis/rest/services/Duluth_Landcover/MapServer'
         }).addTo(map);
     </script>
 </body>
